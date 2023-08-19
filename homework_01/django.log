@@ -1,0 +1,11 @@
+[11:58:56] INFO: Watching for file changes with StatReloader
+[11:59:00] INFO: "GET / HTTP/1.1" 200 318
+[11:59:00] WARNING: Not Found: /favicon.ico
+[11:59:00] WARNING: "GET /favicon.ico HTTP/1.1" 404 2442
+[11:59:11] INFO: "GET /about HTTP/1.1" 301 0
+[11:59:11] INFO: "GET /about/ HTTP/1.1" 200 300
+[12:01:49] INFO: Watching for file changes with StatReloader
+[12:01:56] INFO: Посещение Главной страницы.
+[12:01:56] INFO: "GET / HTTP/1.1" 200 318
+[12:02:05] INFO: Посещение страницы О нас.
+[12:02:05] INFO: "GET /about/ HTTP/1.1" 200 300
