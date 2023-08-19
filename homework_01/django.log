@@ -9,3 +9,10 @@
 [12:01:56] INFO: "GET / HTTP/1.1" 200 318
 [12:02:05] INFO: Посещение страницы О нас.
 [12:02:05] INFO: "GET /about/ HTTP/1.1" 200 300
+[12:13:32] INFO: Watching for file changes with StatReloader
+[12:13:34] INFO: Посещение Главной страницы.
+[12:13:34] INFO: "GET / HTTP/1.1" 200 318
+[12:13:38] INFO: Посещение страницы О нас.
+[12:13:38] INFO: "GET /about/ HTTP/1.1" 200 300
+[12:13:41] INFO: Посещение страницы О нас.
+[12:13:41] INFO: "GET /about/ HTTP/1.1" 200 300
