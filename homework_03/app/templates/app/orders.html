@@ -1,0 +1,17 @@
+{% extends 'app/base.html' %}
+
+{% block title %}Заказы{% endblock %}
+
+{% block content %}
+<h2 class="text-center">Список заказов</h2>
+    {% for order in orders %}
+        <h4>Дата заказа: {{ order.date }}</h4>
+        <p>Общая стоимость: {{ order.common_price }}</p>
+        <p>Продукты:</p>
+        <ul>
+            {% for product in order.products.all %}
+                <li>{{ product.name }}</li>
+            {% endfor %}
+        </ul>
+    {% endfor %}
+{% endblock %}
